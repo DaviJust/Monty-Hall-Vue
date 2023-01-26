@@ -1,11 +1,15 @@
 <template>
   <div id="app">
     <h1>Problema de Monty Hall</h1>
-  </div>
+    <DoorMonty/>
+</div>
 </template>
 
 <script>
+import DoorMonty from './components/DoorMonty'
 export default {
+name: 'App',
+components:{DoorMonty},
 
 }
 </script>
