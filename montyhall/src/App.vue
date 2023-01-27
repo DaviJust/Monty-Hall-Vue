@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>Problema de Monty Hall</h1>
-    <DoorMonty/>
+    <DoorMonty number="1" hasGift="false"/>
 </div>
 </template>
 
